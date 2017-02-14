@@ -1,0 +1,8 @@
+<h1>Questions</h1>
+
+<br>
+
+<% @questions.each do |question| %>
+  <h3><%= question.prize_money %></h3>
+  <p><%= question.body %></p>
+<% end %>
